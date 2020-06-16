@@ -15,6 +15,7 @@ shc itself is not a compiler such as cc, it rather encodes and encrypts a shell 
 
 ```bash
 ./configure
+autoreconf -f -i
 make
 sudo make install
 ```
