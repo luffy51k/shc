@@ -13,7 +13,9 @@ shc itself is not a compiler such as cc, it rather encodes and encrypts a shell 
 
 ## Install
 
+centos7
 ```bash
+yum install autoconf automake
 ./configure
 autoreconf -f -i
 make
